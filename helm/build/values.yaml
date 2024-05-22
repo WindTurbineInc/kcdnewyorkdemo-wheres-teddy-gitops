@@ -1,0 +1,15 @@
+app:
+  name: kcdnewyorkdemo-wheres-teddy-app
+  namespace: kcdnewyorkdemo
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/kcdnewyorkdemo-wheres-teddy
+  org: WindTurbineInc
+  name: kcdnewyorkdemo-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: kcdnewyorkdemo/wheres-teddy-app
+  tag: latest
